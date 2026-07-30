@@ -2,9 +2,9 @@
 
 ## How to file issues and get help
 
-Skill Recorder is an experimental research project, not an officially supported Microsoft
-product — see the [Disclaimer](README.md#disclaimer). Support is community-based and
-best-effort.
+Skill Recorder is a community-supported, open-source project rather than an officially
+supported Microsoft product — see the [Disclaimer](README.md#disclaimer). Support is
+community-based and best-effort, and we're happy to help where we can.
 
 This project uses [GitHub Issues](https://github.com/microsoft/skill-recorder/issues) to
 track bugs and feature requests. Please search the existing issues before filing a new one
@@ -26,11 +26,11 @@ Before filing, it's worth checking:
 - Any relevant error text from the app
 
 **Debug bundles.** Each recording in the Library has a small download icon in its session
-header that packages that session into a `.zip` alongside environment diagnostics. It is
-deliberately complete, so it contains **your private capture data** — screenshots, screen
-video, narration audio, and the analysis. Review it before sharing, and never attach one
-to a public GitHub issue unless you're certain it holds nothing sensitive. A maintainer
-will tell you where to send it if one is needed.
+header that packages that session into a `.zip` alongside environment diagnostics. Because
+it's complete, it includes your capture data — screenshots, screen video, narration audio,
+and the analysis. Give it a quick review and remove anything private before sharing, and
+please don't attach one to a public GitHub issue. If a maintainer needs it, they'll point
+you to a private channel to send it.
 
 ## Security issues
 

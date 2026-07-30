@@ -219,9 +219,11 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## Disclaimer
 
-This project is an experimental research project, not an officially supported Microsoft
-product. Always review and validate generated skills before using those — AI-generated
-output may contain errors or unsupported patterns.
+Skill Recorder is a community-supported, open-source project rather than an officially
+supported Microsoft product. Help is available on a best-effort basis through
+[GitHub Issues](https://github.com/microsoft/skill-recorder/issues) — see
+[`SUPPORT.md`](SUPPORT.md) for details. Because skills are generated with AI, review and
+validate them before you rely on them.
 
 ## Trademarks
 
