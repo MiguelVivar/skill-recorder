@@ -4,7 +4,7 @@
 
 Skill Recorder is a community-supported, open-source project rather than an officially
 supported Microsoft product — see the [Disclaimer](README.md#disclaimer). Support is
-community-based and best-effort, and we're happy to help where we can.
+community-based and best-effort.
 
 This project uses [GitHub Issues](https://github.com/microsoft/skill-recorder/issues) to
 track bugs and feature requests. Please search the existing issues before filing a new one
