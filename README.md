@@ -217,6 +217,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
+## Disclaimer
+
+This project is an experimental research project, not an officially supported Microsoft
+product. Always review and validate generated skills before using those — AI-generated
+output may contain errors or unsupported patterns.
+
 ## Trademarks
 
 This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
