@@ -87,7 +87,7 @@ test("disabled targets stay unavailable even when catalogue content is staged", 
   assert.equal(registry.catalogueFor("copilot-studio", "skill"), null);
   assert.throws(
     () => registry.requireCatalogue("copilot-studio", "skill"),
-    /That target architecture isn't available yet\. Choose Scout, Cowork, or Agent Skill\./,
+    /That target architecture isn't available yet\. Choose Scout, Cowork, or Agent skill\./,
   );
 });
 
@@ -206,6 +206,6 @@ test("real providers preserve versions, content, and the support matrix", () => 
   assert.equal(agentSkillSkill.version, "2026-08-06");
   assert.equal(
     sha256(agentSkillSkill.content),
-    "d5cd96cd8917710aa27b2430358472d947a3cdf3be611cb8f8484d5df2b72789",
+    "27cb863efb3fe973d3b7d4e24359cf5297c1b30fdbc29c073878b57a6d5d8810",
   );
 });

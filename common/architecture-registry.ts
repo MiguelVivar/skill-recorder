@@ -120,15 +120,15 @@ export const ARCHITECTURE_MANIFEST = defineArchitectures([
   },
   {
     id: "agent-skill",
-    label: "Agent Skill",
+    label: "Agent skill",
     // Export-only, so this label is never surfaced; kept non-blank for the manifest
     // invariant and as a sensible fallback if the target ever gains an install path.
     installTargetLabel: "your agent",
-    note: "Any AI Agent with Skill support",
+    note: "Any AI agent that supports skills — portable, with no host-specific tools.",
     targets: [
       {
         kind: "skill",
-        label: "Agent Skill",
+        label: "Agent skill",
         enabled: true,
         note:
           "A portable skill you export and load into any agent that supports skills. " +

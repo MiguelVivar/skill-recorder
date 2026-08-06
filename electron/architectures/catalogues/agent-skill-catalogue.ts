@@ -12,7 +12,7 @@ export const AGENT_SKILL_CATALOGUE_VERSION = "2026-08-06";
 const AGENT_SKILL_CATALOGUE = `
 # Target: Any AI agent with skill support — generic skill catalogue (portable capabilities only)
 
-An **Agent Skill** is a portable \`SKILL.md\` file: optional YAML frontmatter followed by a
+An **Agent skill** is a portable \`SKILL.md\` file: optional YAML frontmatter followed by a
 markdown **instructions body** (the standard Copilot skill shape). It targets no specific
 host, so it must NOT assume any proprietary built-in tools.
 

@@ -62,7 +62,7 @@ test("the manifest derives architecture validation and target availability", () 
   assert.deepEqual(enabledArchitectureLabels("skill"), [
     "Scout",
     "Cowork",
-    "Agent Skill",
+    "Agent skill",
   ]);
   assert.deepEqual(enabledArchitectureLabels("automation"), ["Scout"]);
 });
