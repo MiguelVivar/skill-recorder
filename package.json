@@ -29,6 +29,7 @@
     "electron:install-reviewed": "node scripts/install-reviewed-electron.mjs",
     "compliance:licenses": "node scripts/prepare-compliance.mjs --licenses-only",
     "compliance:prepare": "node scripts/prepare-compliance.mjs",
+    "compliance:review": "node scripts/review-compliance-sources.mjs",
     "compliance:test": "node --test scripts/compliance.test.mjs",
     "fix:lockfile-registry": "node scripts/check-lockfile-portability.mjs --fix",
     "dist": "npm run compliance:prepare && node scripts/assert-generic-dist-platform.mjs && npm run build:vite && electron-builder --publish never",
